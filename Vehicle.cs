@@ -8,5 +8,13 @@ namespace PolymorphismTaskOOP
 {
     class Vehicle
     {
+        //1. class fields ...
+        public string Brand;
+        public string Model;
+        public int Year;
+        public string LicensePlate;
+        //2. class properties ...
+        //3. class methods ...
+        //4. class constructor ...
     }
 }
