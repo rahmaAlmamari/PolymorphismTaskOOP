@@ -56,7 +56,6 @@ namespace PolymorphismTaskOOP
             }
             return cost; // Return the total cost
         }
-
         //4. class constructor ...
     }
 }
