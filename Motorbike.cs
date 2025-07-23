@@ -55,6 +55,11 @@ namespace PolymorphismTaskOOP
             }
             return cost; // Return the total cost
         }
+        //to print the motorbike details ...
+        public void PrintMotorbikeDetails()
+        {
+            Console.WriteLine($"Motorbike Details: \nBrand: {Brand}, Model: {Model}, Year: {Year}, License Plate: {LicensePlate}, Requires Helmet: {RequiresHelmet}");
+        }
         //4. class constructor ...
     }
 }
