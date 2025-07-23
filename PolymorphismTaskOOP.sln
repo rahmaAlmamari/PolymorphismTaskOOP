@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismTaskOOP", "PolymorphismTaskOOP.csproj", "{9C20B769-BAB5-4E60-A26B-F669D9995922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C20B769-BAB5-4E60-A26B-F669D9995922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C20B769-BAB5-4E60-A26B-F669D9995922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C20B769-BAB5-4E60-A26B-F669D9995922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C20B769-BAB5-4E60-A26B-F669D9995922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7132C14-6AFA-4D25-A94B-6B6DB8B1ADBE}
+	EndGlobalSection
+EndGlobal
