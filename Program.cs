@@ -26,6 +26,23 @@ namespace PolymorphismTaskOOP
 
             //-------------------------------------------------------
 
+            // Displaying Available Vehicles ...
+            Console.WriteLine("--- SmartCar Rentals System --- \n");
+            Console.WriteLine("Available Cars:");
+            foreach (var car in cars)
+            {
+                car.PrintCarDetails();
+            }
+            Console.WriteLine("\nAvailable Motorbikes:");
+            foreach (var motorbike in motorbikes)
+            {
+                motorbike.PrintMotorbikeDetails();
+            }
+            Console.WriteLine("\nAvailable Trucks:");
+            foreach (var truck in trucks)
+            {
+                truck.PrintTruckDetails();
+            }
 
 
         }
