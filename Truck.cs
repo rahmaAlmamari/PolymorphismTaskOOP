@@ -41,6 +41,20 @@ namespace PolymorphismTaskOOP
                 return days * 70 * 100; // Regular rate for 7 days or less ...
             }
         }
+        //overload method ...
+        public double CalculateRentalCost(int days, bool withDriver, double maxKg)
+        {
+            double cost = CalculateRentalCost(days, maxKg); // Call the base method to get the cost
+            if (cost < 0) // If the vehicle is too old for rental or load is too heavy
+            {
+                return -1; // Return -1 to indicate that the vehicle cannot be rented
+            }
+            if (withDriver)
+            {
+                cost += 100; // Add driver cost of 100 per day
+            }
+            return cost; // Return the total cost
+        }
         //4. class constructor ...
     }
 }
